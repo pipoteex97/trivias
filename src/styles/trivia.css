@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(97, 97, 179);
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10em;
+    height: 30em;
+    margin-top: 4em;
+    background-color: rgb(106, 106, 228);
+}
+
+.correcto{
+    background-color: rgb(83, 219, 83);
+}
+
+.incorrecto{
+    background-color: rgb(241, 50, 50);
+}
+
+.cuadro_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10em;
+    height: 90%;
+    width: 70%;
+    background-color: rgb(79, 79, 209);
+}
+
+.cuadro_principal div{
+    text-align: center;
+    width: 80%;
+}
+
+.boton_continuar{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+
+h3{
+    color: azure;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1em;
+    margin: 0;
+    
+    border-radius: 1em;
+}
+
+h2{
+    color: azure;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boton_respuesta{
+    padding: 1em;
+    width: 60%;
+    border-radius: 2em;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.boton_respuesta:hover{
+    background: rgb(111, 111, 197);
+    color: bisque;
+}
+
+
+@media screen and (max-width: 480px){
+
+    .boton_respuesta{
+        padding: 1em;
+        width: 90%;
+        border-radius: 2em;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+    .cuadro_principal{
+        
+        border-radius: 5em;
+        
+    }
+
+    .cuadro_principal div{
+        
+        width: 95%;
+    }
+
+}
